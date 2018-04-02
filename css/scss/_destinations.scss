@@ -1,0 +1,25 @@
+.destinations {
+    width: 100%;
+    margin: 40px auto 40px auto;
+    >.title {
+        font-family: $primary-font;
+        font-size: 2em;
+        color: $black;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 40px auto 40px auto;
+        &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            background-color: $black;
+            height: 2px;
+            margin: 10px auto;
+        }
+    }
+    >.content {
+        >.img {
+            height: 300px;
+        }
+    }
+}
