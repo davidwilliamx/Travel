@@ -1,0 +1,33 @@
+.header {
+    padding: 50px 0px 50px 0px;
+    >.container {
+        >.logo {
+            float: left;
+            >.image {
+                width: 100%;
+            }
+        }
+        >.main-nav {
+            list-style-type: none;
+            float: right;
+            padding: 50px 0px 50px 0px;
+            >.list {
+                >.item {
+                    display: inline-block;
+                    padding-right: 30px;
+                    >.link {
+                        font-family: $primary-font;
+                        font-size: 1em;
+                        color: $black;
+                        text-decoration: none;
+                        text-align: right;
+                        padding-bottom: 10px;
+                    }
+                    >.link:hover {
+                        border-bottom: 2px solid $black;
+                    }
+                }
+            }
+        }
+    }
+}
