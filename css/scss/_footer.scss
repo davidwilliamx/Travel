@@ -1,0 +1,109 @@
+.footer {
+    width: 100%;
+    background-color: $dark-blue;
+    padding: 100px 0px 40px 0px;
+    .country {
+        font-family: $secondary-font;
+        font-size: 1em;
+        line-height: 1.5em;
+        .list {
+            .item {
+                padding: 5px 0px;
+                .link {
+                    color: $white;
+                    text-decoration: none;
+                    &:hover {
+                        color: $light-blue;
+                    }
+                }
+            }
+        }
+    }
+    .utils {
+        font-family: $secondary-font;
+        font-size: 1em;
+        line-height: 1.5em;
+        .list {
+            .item {
+                padding: 5px 0px;
+                .link {
+                    color: $white;
+                    text-decoration: none;
+                    &:hover {
+                        color: $light-blue;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-nav {
+        font-family: $secondary-font;
+        font-size: 1em;
+        line-height: 1.5em;
+        .list {
+            .item {
+                padding: 5px 0px;
+                .link {
+                    color: $white;
+                    text-decoration: none;
+                    &:hover {
+                        color: $light-blue;
+                    }
+                }
+            }
+        }
+    }
+    .location {
+        .logo {
+            margin-bottom: 10px;
+        }
+        .address {
+            font-family: $secondary-font;
+            font-size: 1em;
+            color: $white;
+            line-height: 1.5em;
+            margin: 20px 0px;
+        }
+        .tel {
+            font-family: $secondary-font;
+            font-size: 1em;
+            color: $white;
+            margin: 20px 0px;
+        }
+        #email {
+            border: 1px solid $white;
+            padding: 7px 6px;
+            background: $white;
+            color: $black;
+            margin-right: 0px;
+        }
+        .btn {
+            font-family: $primary-font;
+            font-size: 0.875em;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: rgba(0, 0, 0, 0);
+            color: $white;
+            border: 1px solid $white;
+            padding: 6px 10px;
+            cursor: pointer;
+            margin-left: -5px;
+        }
+    }
+    .copy {
+        margin-top: 30px;
+        .container {
+            padding-top: 10px;
+            border-top: 1px solid $white;
+            .text {
+                font-family: $secondary-font;
+                font-size: 1em;
+                line-height: 1.5em;
+                color: $white;
+            }
+            .social {
+                text-align: right;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.quotes {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    .title {
+        font-family: $primary-font;
+        font-size: 2em;
+        color: $black;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+        &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 2px;
+            background-color: $black;
+            margin: 10px auto;
+        }
+    }
+    .content {
+        background-color: $dark-blue;
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: $white;
+            margin: 20px auto;
+        }
+        .name {
+            font-family: $primary-font;
+            font-size: 2em;
+            color: $white;
+            text-align: center;
+            text-transform: uppercase;
+            &::after {
+                content: "";
+                display: block;
+                width: 80px;
+                height: 2px;
+                margin: 20px auto;
+                background-color: $white;
+            }
+        }
+        .city {
+            font-family: $primary-font;
+            font-size: 1.4em;
+            text-align: center;
+            color: $white;
+            margin: 20px 10px 50px 10px;
+        }
+        .quote {
+            font-family: $secondary-font;
+            font-size: 1em;
+            text-align: center;
+            line-height: 1.5em;
+            color: $white;
+            margin: 10px 0px 80px 0px;
+            padding: 0px 50px;
+        }
+    }
+}

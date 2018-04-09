@@ -1,13 +1,12 @@
 .destinations {
-    width: 100%;
-    margin: 40px auto 40px auto;
-    >.title {
+    margin-bottom: 50px;
+    .title {
         font-family: $primary-font;
         font-size: 2em;
         color: $black;
         text-transform: uppercase;
         text-align: center;
-        margin: 40px auto 40px auto;
+        margin-bottom: 40px;
         &::after {
             content: "";
             display: block;
@@ -17,9 +16,11 @@
             margin: 10px auto;
         }
     }
-    >.content {
-        >.img {
-            height: 300px;
+    .content {
+        width: 100%;
+        .wrapper {
+            height: 400px;
+            background-color: $dark-blue;
         }
     }
 }

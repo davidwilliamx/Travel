@@ -1,0 +1,50 @@
+.offers {
+    >.title {
+        font-family: $primary-font;
+        font-size: 2em;
+        color: $black;
+        text-transform: uppercase;
+        text-align: center;
+        &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 2px;
+            background-color: $black;
+            margin: 10px auto;
+        }
+    }
+    .content {
+        .item {
+            background-color: $dark-blue;
+            height: 400px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.3em;
+            font-family: $primary-font;
+            padding-top: 150px;
+            .btn {
+                font-family: $primary-font;
+                font-size: 0.875em;
+                color: $white;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 1.5em;
+                border: 1px solid $white;
+                padding: 10px 15px;
+                text-decoration: none;
+                background: rgba(0, 0, 0, 0);
+                cursor: pointer;
+                margin-top: 30px;
+            }
+        }
+        .item:nth-child(2), .item:nth-child(5) {
+            .description {
+                .title {
+                    color: $white;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
