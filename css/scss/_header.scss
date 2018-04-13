@@ -1,5 +1,6 @@
 .header {
-    padding: 50px 0px 50px 0px;
+    z-index: 10;
+    position: relative;
     .container {
         .logo {
             float: left;
@@ -18,12 +19,12 @@
                     .link {
                         font-family: $primary-font;
                         font-size: 1em;
-                        color: $black;
+                        color: $white;
                         text-decoration: none;
                         text-align: right;
                         padding-bottom: 10px;
                         &:hover {
-                            border-bottom: 2px solid $black;
+                            border-bottom: 2px solid $white;
                         }
                     }
                 }

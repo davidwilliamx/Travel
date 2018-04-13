@@ -1,9 +1,10 @@
 .hotels {
-    margin-bottom: 50px;
+    max-width: 100%;
+    margin: 60px auto;
     >.title {
         font-family: $primary-font;
         font-size: 2em;
-        color: $black;
+        color: $dark-blue;
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 40px;
@@ -12,24 +13,33 @@
             display: block;
             width: 80px;
             height: 2px;
-            background: $black;
+            background: $dark-blue;
             margin: 10px auto;
         }
     }
-    .img {
-        height: 400px;
-        background-color: $dark-blue;
+    .wrapper {
+        margin: 0px;
+        float: right;
+        .img {
+            width: 100%;
+        }
     }
     .content {
         background: $dark-blue;
-        padding: 40px;
+        float: left;
+        margin-top: -200px;
+        margin-left: 50px;
+        padding: 80px 40px;
+        position: relative;
         .title {
             font-family: $primary-font;
             font-size: 1.6em;
             color: $white;
             text-align: left;
             text-transform: uppercase;
-            margin-bottom: 40px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid $white;
+            margin-bottom: 20px;
         }
         .description {
             font-family: $secondary-font;

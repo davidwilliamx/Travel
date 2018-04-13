@@ -1,28 +1,29 @@
 .offers {
+    margin: 60px auto;
     >.title {
         font-family: $primary-font;
         font-size: 2em;
-        color: $black;
+        color: $dark-blue;
         text-transform: uppercase;
         text-align: center;
+        margin-bottom: 40px;
         &::after {
             content: "";
             display: block;
             width: 80px;
             height: 2px;
-            background-color: $black;
+            background-color: $dark-blue;
             margin: 10px auto;
         }
     }
     .content {
         .item {
             background-color: $dark-blue;
-            height: 400px;
-            margin-bottom: 30px;
+            height: 450px;
             text-align: center;
             font-size: 1.3em;
             font-family: $primary-font;
-            padding-top: 150px;
+            margin-bottom: 20px;
             .btn {
                 font-family: $primary-font;
                 font-size: 0.875em;
@@ -38,7 +39,8 @@
                 margin-top: 30px;
             }
         }
-        .item:nth-child(2), .item:nth-child(5) {
+        .item:nth-child(2),
+        .item:nth-child(5) {
             .description {
                 .title {
                     color: $white;
