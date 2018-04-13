@@ -656,11 +656,33 @@ img {
   height: 450px;
   text-align: center;
   font-size: 1.3em;
+  color: #F0F5FA;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
 }
 
-/* line 27, /home/david/projetos/travel/css/scss/_offers.scss */
+/* line 29, /home/david/projetos/travel/css/scss/_offers.scss */
+.offers .content .item .description .title {
+  text-align: left;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+
+/* line 34, /home/david/projetos/travel/css/scss/_offers.scss */
+.offers .content .item .description .info {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* line 38, /home/david/projetos/travel/css/scss/_offers.scss */
+.offers .content .item .description .price {
+  font-size: 2em;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: -45px;
+}
+
+/* line 45, /home/david/projetos/travel/css/scss/_offers.scss */
 .offers .content .item .btn {
   font-family: "Montserrat", sans-serif;
   font-size: 0.875em;
@@ -676,11 +698,26 @@ img {
   margin-top: 30px;
 }
 
-/* line 45, /home/david/projetos/travel/css/scss/_offers.scss */
-.offers .content .item:nth-child(2) .description .title,
-.offers .content .item:nth-child(5) .description .title {
+/* line 60, /home/david/projetos/travel/css/scss/_offers.scss */
+.offers .content .item:nth-child(2) {
+  background: url("../img/offer6.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* line 64, /home/david/projetos/travel/css/scss/_offers.scss */
+.offers .content .item:nth-child(2) .description .title {
+  font-size: 2em;
   color: #F0F5FA;
   text-transform: uppercase;
+  text-align: center;
+  padding: 160px 0px 50px 0px;
+}
+
+/* line 71, /home/david/projetos/travel/css/scss/_offers.scss */
+.offers .content .item:nth-child(2) .description .btn:hover {
+  background-color: #F0F5FA;
+  color: #3583F5;
+  transition: all ease-in-out .3s;
 }
 
 /* line 1, /home/david/projetos/travel/css/scss/_quotes.scss */
@@ -712,19 +749,20 @@ img {
 
 /* line 21, /home/david/projetos/travel/css/scss/_quotes.scss */
 .quotes .content {
+  padding: 40px 0px;
   background-color: #3583F5;
 }
 
-/* line 23, /home/david/projetos/travel/css/scss/_quotes.scss */
+/* line 24, /home/david/projetos/travel/css/scss/_quotes.scss */
 .quotes .content .avatar {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: #F0F5FA;
+  background: url("../img/avatar.jpg") no-repeat center;
   margin: 20px auto;
 }
 
-/* line 30, /home/david/projetos/travel/css/scss/_quotes.scss */
+/* line 31, /home/david/projetos/travel/css/scss/_quotes.scss */
 .quotes .content .name {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
@@ -733,7 +771,7 @@ img {
   text-transform: uppercase;
 }
 
-/* line 36, /home/david/projetos/travel/css/scss/_quotes.scss */
+/* line 37, /home/david/projetos/travel/css/scss/_quotes.scss */
 .quotes .content .name::after {
   content: "";
   display: block;
@@ -743,7 +781,7 @@ img {
   background-color: #F0F5FA;
 }
 
-/* line 45, /home/david/projetos/travel/css/scss/_quotes.scss */
+/* line 46, /home/david/projetos/travel/css/scss/_quotes.scss */
 .quotes .content .city {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4em;
@@ -752,7 +790,7 @@ img {
   margin: 20px 10px 50px 10px;
 }
 
-/* line 52, /home/david/projetos/travel/css/scss/_quotes.scss */
+/* line 53, /home/david/projetos/travel/css/scss/_quotes.scss */
 .quotes .content .quote {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
@@ -855,107 +893,111 @@ img {
 }
 
 /* line 6, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .country {
+.footer .wrapper {
+  margin-bottom: 60px;
+}
+
+/* line 8, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .country {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
-}
-
-/* line 11, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .country .list .item {
-  padding: 5px 0px;
 }
 
 /* line 13, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .country .list .item .link {
+.footer .wrapper .country .list .item {
+  padding: 5px 0px;
+}
+
+/* line 15, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .country .list .item .link {
   color: #F0F5FA;
   text-decoration: none;
 }
 
-/* line 16, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .country .list .item .link:hover {
-  color: #90B8F7;
+/* line 18, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .country .list .item .link:hover {
+  border-bottom: 1px solid #F0F5FA;
 }
 
-/* line 23, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .utils {
+/* line 25, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .utils {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
-}
-
-/* line 28, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .utils .list .item {
-  padding: 5px 0px;
 }
 
 /* line 30, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .utils .list .item .link {
-  color: #F0F5FA;
-  text-decoration: none;
-}
-
-/* line 33, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .utils .list .item .link:hover {
-  color: #90B8F7;
-}
-
-/* line 40, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .bottom-nav {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-
-/* line 45, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .bottom-nav .list .item {
+.footer .wrapper .utils .list .item {
   padding: 5px 0px;
 }
 
-/* line 47, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .bottom-nav .list .item .link {
+/* line 32, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .utils .list .item .link {
   color: #F0F5FA;
   text-decoration: none;
 }
 
-/* line 50, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .bottom-nav .list .item .link:hover {
-  color: #90B8F7;
+/* line 35, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .utils .list .item .link:hover {
+  border-bottom: 1px solid #F0F5FA;
 }
 
-/* line 58, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .location .logo {
-  margin-bottom: 10px;
+/* line 42, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .bottom-nav {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
-/* line 61, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .location .address {
+/* line 47, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .bottom-nav .list .item {
+  padding: 5px 0px;
+}
+
+/* line 49, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .bottom-nav .list .item .link {
+  color: #F0F5FA;
+  text-decoration: none;
+}
+
+/* line 52, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .bottom-nav .list .item .link:hover {
+  border-bottom: 1px solid #F0F5FA;
+}
+
+/* line 60, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .location .logo {
+  margin: 0 auto;
+}
+
+/* line 63, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .location .address {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   color: #F0F5FA;
   line-height: 1.5em;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
-/* line 68, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .location .tel {
+/* line 70, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .location .tel {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   color: #F0F5FA;
-  margin: 20px 0px;
+  margin: 10px 0px 40px 0px;
 }
 
-/* line 74, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .location #email {
-  border: 1px solid #F0F5FA;
-  padding: 7px 6px;
+/* line 76, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .location .email {
+  border: 0px;
+  padding: 10px 10px;
   background: #F0F5FA;
   color: #000000;
-  margin-right: 0px;
 }
 
-/* line 81, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .location .btn {
+/* line 82, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .wrapper .location .btn {
   font-family: "Montserrat", sans-serif;
   font-size: 0.875em;
   text-align: center;
@@ -963,33 +1005,49 @@ img {
   background-color: transparent;
   color: #F0F5FA;
   border: 1px solid #F0F5FA;
-  padding: 6px 10px;
+  padding: 9px 9px;
   cursor: pointer;
-  margin-left: -5px;
 }
 
-/* line 94, /home/david/projetos/travel/css/scss/_footer.scss */
+/* line 95, /home/david/projetos/travel/css/scss/_footer.scss */
 .footer .copy {
   margin-top: 30px;
 }
 
-/* line 96, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .copy .container {
-  padding-top: 10px;
+/* line 97, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .copy .wrapper {
+  padding-top: 20px;
   border-top: 1px solid #F0F5FA;
 }
 
-/* line 99, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .copy .container .text {
+/* line 100, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .copy .wrapper .text {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   color: #F0F5FA;
 }
 
-/* line 105, /home/david/projetos/travel/css/scss/_footer.scss */
-.footer .copy .container .social {
+/* line 106, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .copy .wrapper .social {
   text-align: right;
+}
+
+/* line 109, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .copy .wrapper .social .list .item {
+  display: inline-block;
+}
+
+/* line 111, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .copy .wrapper .social .list .item .link {
+  background-color: #000000;
+  text-indent: -999999px;
+}
+
+/* line 114, /home/david/projetos/travel/css/scss/_footer.scss */
+.footer .copy .wrapper .social .list .item .link .twitter, .footer .copy .wrapper .social .list .item .link .facebook, .footer .copy .wrapper .social .list .item .link .pinterest {
+  width: 32px;
+  height: 32px;
 }
 
 /*# sourceMappingURL=../style.map */
